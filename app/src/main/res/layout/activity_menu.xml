@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back_main"
+    android:orientation="vertical"
+    tools:context=".activityMenu">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/marca" />
+
+    <TextView
+        android:id="@+id/tvBoasVindas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="cursive"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/BotaoPedido"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/shapelogin"
+        android:padding="17dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="FAZER PEDIDO"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/BotaoConsultar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/shapelogin"
+        android:padding="17dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="CONSULTAR PEDIDO"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/BotaoGarcom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/shapelogin"
+        android:padding="17dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="CHAMAR GARÇOM"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/BotaoHistorico"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/shapelogin"
+        android:padding="17dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="HISTORICO DE SOLICITAÇÕES"
+        android:textColor="#000" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="149dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#87d97401">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="PRATO DO DIA"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/botaoPrato"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:background="#87d97401"
+            app:srcCompat="@drawable/prato" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

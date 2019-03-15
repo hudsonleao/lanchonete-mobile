@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back_main"
+    android:padding="10dp"
+    tools:context=".activityGarcom">
+
+
+    <LinearLayout
+        android:layout_width="401dp"
+        android:layout_height="540dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="#87d97401"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_vertical"
+            android:background="#fff"
+            android:backgroundTint="#fff"
+            android:paddingTop="30dp"
+            android:text="AGUARDE"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:text="O GARÇOM IRÁ ATENDÊ-LO EM INSTANTES"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="10dp"
+            android:background="#fff"
+            android:backgroundTint="#fff"
+            android:indeterminate="false"
+            android:indeterminateTint="#fff"
+            android:max="100"
+            android:minHeight="50dp"
+            android:minWidth="200dp"
+            android:padding="25dp"
+            android:progress="1" />
+
+        <ProgressBar
+            android:id="@+id/progressBar_cyclic"
+            android:layout_width="430dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="91dp"
+            android:layout_marginTop="40dp"
+            android:indeterminateTint="#fff"
+            android:minHeight="50dp"
+            android:minWidth="50dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

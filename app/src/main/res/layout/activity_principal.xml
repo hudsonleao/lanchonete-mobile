@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".activityPrincipal">
+
+    <ImageView
+        android:layout_width="105dp"
+        android:layout_height="117dp"
+        android:src="@drawable/login" />
+
+    <EditText
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Usuário"
+        android:inputType="textImeMultiLine"
+        android:padding="15dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/Senhas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+            android:drawablePadding="6dp"
+            android:padding="4dp"
+            android:text="Esqueceu a senha?"
+            android:textColor="@android:color/background_light" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BotaoLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACESSAR"
+        android:shadowColor="@android:color/transparent"
+        android:padding="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="0dp"
+        android:textColor="#000"
+        android:background="@drawable/shapelogin"/>
+
+    <Button
+        android:id="@+id/Cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shapeemail"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="CADASTRE-SE"
+        android:textColor="#fff" />
+
+</LinearLayout>

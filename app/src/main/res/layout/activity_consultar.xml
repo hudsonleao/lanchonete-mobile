@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back_main"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".activityConsultar">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:paddingTop="10dp"
+        android:text="CONSULTAR PEDIDO"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="366dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="178dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#87d97401"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pedido"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#fff"
+            android:paddingTop="10dp"
+            android:text="Pedido: 12554"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/pagamentotit"
+                android:layout_width="197dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#a02b00"
+                android:paddingTop="4dp"
+                android:text="PAGAMENTO"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/produtotit"
+                android:layout_width="260dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:background="#914d00"
+                android:paddingTop="4dp"
+                android:text="PRODUTO"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/pagamento"
+                android:layout_width="197dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#d75600"
+                android:paddingBottom="12dp"
+                android:paddingTop="10dp"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/produto"
+                android:layout_width="260dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:background="#e39f00"
+                android:paddingBottom="12dp"
+                android:paddingTop="10dp"
+                android:text="X-FRANGO"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView4a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:text="Status: EM ANDAMENTO"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView10a"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="315dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="Seu pedido ficará pronto em aproximadamente 10 minutos"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

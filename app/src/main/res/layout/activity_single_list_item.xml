@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/Icone"
+        android:layout_width="86dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/icone" />
+
+    <TextView
+        android:id="@+id/Sanduiche"
+        android:layout_width="213dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/Icone"
+        android:layout_toRightOf="@+id/Icone"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Ingredientes"
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Sanduiche"
+        android:layout_alignStart="@+id/Sanduiche"
+        android:layout_below="@+id/Sanduiche"
+        android:layout_marginEnd="10dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/Valor"
+        android:textColor="#fff"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Ingredientes"
+        android:layout_alignStart="@+id/Ingredientes"
+        android:layout_below="@+id/Ingredientes"
+        android:maxLines="1"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="110dp"
+        android:layout_height="22dp"
+        android:layout_alignEnd="@+id/Ingredientes"
+        android:layout_below="@+id/Valor"
+        android:background="@drawable/shapelogin"
+        app:srcCompat="@drawable/comprar" />
+
+
+</RelativeLayout>
